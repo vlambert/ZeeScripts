@@ -1,0 +1,46 @@
+// ==================================================================================================== //
+//      Information on the location of the 2012 Vecbos Monte Carlo Samples as well as the               //
+//                   versions passing the Caltech HggApp Reduced and ZeeSelector                        //
+//                                                                                                      //
+//              Instructions for running the Reducer and ZeeSelector are available at:                  //
+//               https://twiki.cern.ch/twiki/bin/viewauth/CMS/HggAnalysisCaltech#Z_ee                   //
+// ==================================================================================================== //
+
+
+% The Original Monte Carlo Vecbos files are available on eos under the director:
+
+/eoscms//eos/cms/store/group/phys_egamma/emanuele/elereg/V22-5_2_X/MC/DYJetsToLL_M-50_TuneZ2Star_8TeV-madgraph-tarball/
+
+% .list files to run these files with the Caltech HggApp Reduced can be found in:
+
+/afs/cern.ch/user/v/vlambert/public/2012_Zee/VecbosMC/
+
+
+
+% Monte Carlo run with the energy regression but without 2012 pile up reweighting are on castor:
+
+/castor/cern.ch/user/a/amott/CMST3/Hgg/2012/Zee/DYJetsToLL_M-50_TuneZ2Star_8TeV-madgraph/Reduced/
+
+% .list files to run these with the ZeeSelector can be found in:
+
+/afs/cern.ch/user/v/vlambert/public/2012_Zee/MCreduced/
+
+
+
+% Monte Carlo run with the energy regression and 2012 pile up reweighting are also on castor:
+
+/castor/cern.ch/user/a/amott/CMST3/Hgg/2012/Zee/DYJetsToLL_M-50_TuneZ2Star_8TeV-madgraph/Reduced/PileUpReweight/
+
+% .list files to run these with the ZeeSelector can be found in:
+
+/afs/cern.ch/user/v/vlambert/public/2012_Zee/MCreduced_reweighted/
+
+
+% The 2012 Selected Monte Carlo Zee files can be found on castor in the subdirectories:
+
+
+% Without pile up reweighting:
+/castor/cern.ch/user/a/amott/CMST3/Hgg/2012/Zee/DYJetsToLL_M-50_TuneZ2Star_8TeV-madgraph/Reduced/Selected/
+
+% With pile up reweighting
+/castor/cern.ch/user/a/amott/CMST3/Hgg/2012/Zee/DYJetsToLL_M-50_TuneZ2Star_8TeV-madgraph/Reduced/PileUpReweight/Selected/
